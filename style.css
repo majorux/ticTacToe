@@ -1,0 +1,44 @@
+html{
+    font-family: 'Press Start 2P' cursive;
+    background-color: #fcf7e8;
+    color: #ce4d41;
+}
+
+header{
+    text-align: center;
+    margin: 1rem;    
+}
+
+.setup{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-inline: 30%;
+    padding: 1rem;
+    border: #ce4d41 solid;
+    border-radius: 1rem;
+}
+
+.selecttype{
+    display: flex;
+}
+.selecttype button{
+    margin-left: 1rem;
+    padding: 6px;
+    margin-top: -1rem;
+    background-color: #fcf7e8;
+    border-radius: 0.5rem;
+    border: #ce4d41 solid;
+
+}
+
+.startbuttondiv{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.startgame{
+    background-color: #fcf7e8;
+    border-radius: 0.5rem;
+    border: #ce4d41 solid;
+}
