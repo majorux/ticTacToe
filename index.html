@@ -10,6 +10,7 @@
 			href="https://fonts.googleapis.com/css?family=Fredoka+One|Press+Start+2P&display=swap"
 			rel="stylesheet"
 	/>
+    <script src="scrypt.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,10 +18,22 @@
     </header>
     <div class="setup">
         <div class="chooseplayertype">
-            <h2>player: X or O</h2>
-            <div class="selecttype">
-                <button class="selection-X">X</button>
-                <button class="selection-O">O</button>
+            <div>
+                <h2> Player1 (X):</h2>
+                <div class="selecttype">
+                    <div class="selecttype">
+                        <button class="selection human one">human</button>
+                        <button class="selection ai one">AI</button>
+                    </div>
+                </div>
+            </div>    
+            <div>
+                <h2>Player2 (O)</h2>
+                <div class="selecttype">
+                    <button class="selection ai one">human</button>
+                    <button class="selection ai two">AI</button>
+                </div>
+                </div>
             </div>
         </div>
         
@@ -32,7 +45,7 @@
     <div class="winner"></div>
     <div class="Gameboard"></div>
 
-    <script src="scrypt.js"></script>
+    
     
 </body>
 </html>
