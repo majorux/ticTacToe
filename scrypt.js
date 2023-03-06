@@ -60,9 +60,19 @@ const DOM = (() =>{
             const playAgainContainer = document.createElement('div');
             playAgainContainer.className = 'playagaincontainer';
             const playAgain = document.createElement('button');
+            playAgain.textContent = 'Play Again';
+            playAgain.className = 'playagain';
+            playAgainContainer.appendChild(playAgain);
+            this.winnerBanner.appendChild(playAgainContainer);
+            playAgain.addEventListener('click', () =>{
+                location.reload();
+                return false;
+            });
             
-        }
+        },
 
         
-    }
-})
+    };
+})();
+
+
