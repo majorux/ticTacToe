@@ -1,4 +1,4 @@
-console.log()
+
 const DOM = (() => {
 	return {
 		//Human or AI
